@@ -1,0 +1,32 @@
+.App {
+  min-height: 100vh; /* Minimum height to cover the entire viewport height */
+  width: 100%; /* Full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+/* Dark theme styles */
+.App.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Style buttons */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+/* Style inputs */
+input[type="text"],
+input[type="date"] {
+  margin: 5px;
+  padding: 10px;
+}
